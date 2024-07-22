@@ -1,7 +1,7 @@
 {
   "name": "axonops-workbench-cassandra",
   "title": "AxonOps™ Workbench Cassandra®",
-  "version": "0.1.0-internal-20240719",
+  "version": "0.1.0-internal-20240722",
   "author": {
     "name": "AxonOps",
     "email": "info@axonops.com"
