@@ -61,7 +61,7 @@
       "gatekeeperAssess": false,
       "type": "distribution",
       "entitlements": "./resources/entitlements.mac.plist",
-      "entitlementsInherit": "./resources/entitlements.mac.plist",
+      "entitlementsInherit": "./resources/entitlements.mac.inherit.plist",
       "provisioningProfile": "./resources/workbenchcassandra.provisionprofile",
       "extraFiles": [
         "./resources/workbenchcassandra.provisionprofile"
