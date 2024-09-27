@@ -4,14 +4,18 @@
     <dict>
         <key>com.apple.security.app-sandbox</key>
         <true/>
-        <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+        <key>com.apple.security.network.client</key>
+        <true/>
+        <key>com.apple.security.network.server</key>
+        <true/>
+        <key>com.apple.security.personal-information.keychain</key>
         <true/>
         <key>com.apple.security.cs.allow-jit</key>
         <true/>
-        <key>com.apple.security.network.client</key>
+        <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
         <true/>
-        <key>com.apple.security.application-groups</key>
-        <string>UJ776LUP23.com.axonops.workbench</string>
+        <key>com.apple.security.cs.disable-library-validation</key>
+        <true/>
         <key>com.apple.security.keychain-access-groups</key>
         <array>
             <string>UJ776LUP23.*</string>
@@ -25,5 +29,7 @@
             <string>AxonOpsWorkbenchContentProtection</string>
             <string>AxonOpsWorkbenchVarsManifest</string>
         </array>
+        <key>com.apple.security.application-groups</key>
+        <string>UJ776LUP23.com.axonops.workbench</string>
     </dict>
 </plist>
