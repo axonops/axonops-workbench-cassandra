@@ -9,12 +9,12 @@
   "main": "main/main.js",
   "license": "Apache-2.0",
   "description": "AxonOps™ Workbench",
-  "productName": "AxonOps Workbench",
   "companyName": "AxonOps Limited",
   "maintainers": [
     "info@axonops.com"
   ],
   "build": {
+    "productName": "AxonOps Workbench",
     "icon": "./renderer/assets/images/axonops-icon-256x256.png",
     "copyright": "©2024 AxonOps Limited",
     "appId": "com.axonops.workbench",
@@ -61,7 +61,9 @@
       "icon": "./renderer/assets/images/axonops-icon-512x512.icns",
       "category": "public.app-category.developer-tools",
       "extendInfo": {
-        "ElectronTeamID": "UJ776LUP23"
+        "ElectronTeamID": "UJ776LUP23",
+        "CFBundleName": "AxonOps Workbench",
+        "CFBundleDisplayName": "AxonOps Workbench"
       },
       "hardenedRuntime": true,
       "gatekeeperAssess": false,
